@@ -1,5 +1,5 @@
 {
-  "name": "electron-extensions-custom",
+  "name": "electron-extensions",
   "version": "7.0.0",
   "description": "Implementation of Chrome extension APIs for Electron",
   "homepage": "https://github.com/sentialx/electron-extensions#readme",
