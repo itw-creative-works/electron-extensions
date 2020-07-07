@@ -24,7 +24,7 @@ export declare class TabsAPI extends EventEmitter implements ITabsEvents {
     get(tabId: number): chrome.tabs.Tab;
     remove(tabIds: number | number[]): void;
     getAllInWindow(windowId: number): chrome.tabs.Tab[];
-    getSelected(windowId: number): chrome.tabs.Tab[];
+    getSelected(windowId: number): chrome.tabs.Tab;
     query(info?: chrome.tabs.QueryInfo): chrome.tabs.Tab[];
     create(details: chrome.tabs.CreateProperties): Promise<chrome.tabs.Tab>;
     observe(tab: Tab): void;
